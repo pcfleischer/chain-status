@@ -74,3 +74,5 @@ runs:
         github_token: ${{ inputs.github-token }}
         branch: ${{ inputs.gh-pages-branch }}
         directory: ./chain-status
+      env:
+        GITHUB_TOKEN: ${{ inputs.github-token }}
