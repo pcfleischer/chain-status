@@ -75,4 +75,4 @@ runs:
         branch: ${{ inputs.gh-pages-branch }}
         directory: ./chain-status
       env:
-        GITHUB-TOKEN: ${{ inputs.github-token }}
+        GITHUB_TOKEN: ${{ inputs.github-token }}
